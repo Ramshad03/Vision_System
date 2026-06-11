@@ -3,6 +3,9 @@ venv/
 .venv/
 .env
 
+# Claude Code local config
+.claude/
+
 # Python
 __pycache__/
 *.pyc
