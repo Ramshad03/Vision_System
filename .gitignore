@@ -1,0 +1,23 @@
+# Environments
+venv/
+.venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.idea/
+
+# Runtime data (contains personal/biometric data, regenerated at runtime)
+data/local_storage.json
+data/known_faces/*
+data/animal_snapshots/*
+src/data/known_faces/*
+src/data/animal_snapshots/*
+!data/known_faces/.gitkeep
+!data/animal_snapshots/.gitkeep
+!src/data/known_faces/.gitkeep
+!src/data/animal_snapshots/.gitkeep
